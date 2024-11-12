@@ -1,0 +1,22 @@
+.div {
+    width: 250px;
+    border: 1px solid black;
+}
+
+.child {
+    background-color: green;
+}
+
+#container {
+    padding: 15px;
+    background-color: chocolate;
+    color: white;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
