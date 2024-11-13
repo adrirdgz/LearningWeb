@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C8AE7E;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+#favoritos {
+    text-align: center;
+    justify-items: center;
+    background-color: #FAFDF3;
+    padding: 10px;
+}
+
+#hombres {
+    text-align: center;
+    justify-items: center;
+    background-color: #F5F5DD;
+    padding: 10px;
+}
+
+#mujeres {
+    text-align: center;
+    justify-items: center;
+    background-color: #EAE3C9;
+    padding: 10px;
+}
+
+#ninos {
+    text-align: center;
+    justify-items: center;
+    background-color: #D2BD96;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #C8AE7E;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product h3 {
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+.product p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer {
+    background-color: #C8AE7E;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
