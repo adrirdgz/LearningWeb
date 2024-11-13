@@ -13,10 +13,27 @@
     color: white;
 }
 
+#target {
+    position: relative;
+    right: -15px;
+}
+
 .img1 {
     float: left;
 }
 
 .img2 {
     float: right;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.clear {
+    clear: left;
 }

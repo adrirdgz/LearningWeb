@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid black;
+    background-color: #dedede;
+    width: 250px;
+    height: 250px;
+    /* Por defecto */
+    overflow: visible;
+    /* oculto el exceso de información */
+    /* overflow: hidden */
+    overflow: scroll;
+    /* Para quitar el scroll vertical */
+    /* overflow: auto */
+}

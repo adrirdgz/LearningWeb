@@ -1,0 +1,18 @@
+.container {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse; /* colum */  /* colum-reverse*/
+    /*flex-wrap: wrap;*/ /* wrap-reverse*/
+    /*flex-flow: row wrap; lo mismo q arriba*/
+    justify-content: flex-end;
+    height: 500px;
+    align-items: flex-start;
+    gap: 15px 45px
+}
+
+.child {
+    border: 1px dashed black;
+    width: 200px;
+}

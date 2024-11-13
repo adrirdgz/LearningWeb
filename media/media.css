@@ -1,0 +1,23 @@
+@media screen and (min-widht: 800px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media screen and (max-widht: 300px) {
+    h1 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: beige;
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+}
